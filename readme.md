@@ -1,6 +1,5 @@
 # WIP
 
-
 ```bash
 curl -fL https://get.k3s.io | \
 sh -s - server \

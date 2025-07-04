@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - registry.yaml
+  - sealed-secrets.yaml
+  - cloudflared.yaml
+  - tailscale.yaml
+  - etcd.yaml
+  - longhorn.yaml
+  - repositories.yaml
+  - cloudnative-pg.yaml
+  - reflector.yaml
+  - s3.yaml
+  - coredns.yaml
